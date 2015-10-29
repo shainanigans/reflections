@@ -1,0 +1,20 @@
+//How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Viewing the diff pointed me to the line where the difference occured, so instead of scanning an entire file, I only had to compare single line numbers (a much more reasonable task!).
+
+//How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+In addition to being able to compare files after something has gone awry, by having access to the entire history of a file, I would be able to go back to various stages in older projects to find similar situations in newer projects. For example, say in one project I implemented a bit of code that didn't end up in the final project, but I decided later on I wanted it for a different project. Because I would have older versions of the older project available, I would be able to save time and energy recoding something I'd already done once. It would also make it easier to resurrect certain features if at one point something was scrapped but then decided to be used again.
+
+//What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+The good thing about manually creating a commit is that it happens at a logical point, when whatever you were working on has reached a good stopping point. This means that you will be able to work out what was committed when, and you won't have to piece together two commits to rebuild a working file. However, it does mean that if you forget to commit, there's no safety net like there is for auto saving. On the flip side, auto saving can result in commits that don't make sentence, much like a sentence stopping mid-way through. You might not remember what happened during the second half of that sentence, and you would need to go into another commit to find out.
+
+//Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+The audience for tools like Git is developers, whose work focuses on projects rather than single documents. Because programming projects contain multiple documents that interact with one another, it make sense to group them together with commits. Other systems, like Google Docs, are intended for single document management, where changing the contents of one document won't affect any of the other documents.
+
+//How can you use the commands git log and git diff to view the history of files?
+Git log shows all the commits to files, starting with the most recent (using the down arrow can show older commits). The messages included in the logs can give an indication of what each commit is about. By using git diff, you can get a more precise understanding of what exactly was changed in between commits.
+
+//How might using version control make you more confident to make changes that could break something?
+For better or for worse, I'm already pretty confident making changes that could break something, but using version control will certainly make getting back from the breaking much easier. I'll know I'll be able to pinpoint where I went wrong much more easily.
+
+//Now that you have your workspace set up, what do you want to try using Git for?
+I'd like to use Git while working on websites. It will be particularly useful when making large structural or stylistic changes that I'm unsure of!
