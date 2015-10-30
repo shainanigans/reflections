@@ -12,3 +12,6 @@ Branches would be helpful with testing how a new feature might work. If you have
 
 //How do the diagrams help you visualize the branch structure?
 The diagrams help show where two branches separated, thereby showing which commits they share and which features and fixes will be the same (and which won't).
+
+//What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two branches together combines the deletions and additions that each branch has had (essentialy combining features and fixes). We represent it in the diagram as two separate lines that connect where the two branches separated and where they were merged so that we can see the relationship of one commit to its parent.
