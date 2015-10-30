@@ -3,3 +3,9 @@ Initialising a repository creates the (hidden) file that git will use to keep tr
 
 //How is the staging area different from the working directory and the repository? What value do you think it offers?
 The staging area is like a transparent bridge between the working directory and the repository. It allows you to check on what is going on with your files before making a commit.
+
+//How can you use the staging area to make sure you have one commit per logical change?
+Use git status to see what is in the staging area. If files with unrelated changes are in there, remove one before commiting.
+
+//What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches would be helpful with testing how a new feature might work. If you have two ideas for how something could be done, you could create two working versions of the project and compare them both.
