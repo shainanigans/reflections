@@ -15,3 +15,6 @@ The diagrams help show where two branches separated, thereby showing which commi
 
 //What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two branches together combines the deletions and additions that each branch has had (essentialy combining features and fixes). We represent it in the diagram as two separate lines that connect where the two branches separated and where they were merged so that we can see the relationship of one commit to its parent.
+
+//What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic merging means less work to combine two branches. However, it can result in conflicts that Git can't resolve. Doing merges manually takes more time, but means that more difficult decisions are more likely to be merged correctly.
