@@ -9,3 +9,6 @@ Use git status to see what is in the staging area. If files with unrelated chang
 
 //What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches would be helpful with testing how a new feature might work. If you have two ideas for how something could be done, you could create two working versions of the project and compare them both.
+
+//How do the diagrams help you visualize the branch structure?
+The diagrams help show where two branches separated, thereby showing which commits they share and which features and fixes will be the same (and which won't).
