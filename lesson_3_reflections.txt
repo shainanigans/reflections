@@ -9,3 +9,6 @@ A branch can be thought of as a turn away from previous commits, which allows a 
 
 //What is the benefit of having a copy of the last known state of the remote stored locally?
 By having a copy of the last known state of the remote stored locally, you're able to see what changes you've made since the last push. You could also use it to see what changes have been made to the remote since your last pull, which would help keep the remote and the local directory in sync (if desired).
+
+//How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without Git or GitHub, it would be much harder to work on the same part of the project (like the same file). I could use a checkout system like in Dreamweaver for web files, which ensures that only one person is working on one file at a time, but that's not helpful for other file types or for making sure that someone does change something in one file that affects another. It would need to be clear who is working on what at any given moment, and when conflicts do arise, it would need to be fixed and merged manually every time. The only thing that seems easier at the moment is remembering how to do everything, but hopefully soon that will be second nature to me!
