@@ -6,3 +6,6 @@ Depending on the size of the project and your role in it, you may not need every
 
 //Describe the differences between forks, clones, and branches. When would you use one instead of another?
 A branch can be thought of as a turn away from previous commits, which allows a person to "walk" (make changes to files) down two or more different paths simultaneously. "Walking" down one path does not affect the course of the other. A clone is copying a repository, including all of its branches, and recreating it somewhere else. This can be a clone of a repository in a local directory or a clone from a remote repository like those on GitHub. When cloning, there is no visible link from the clone to the original repository. A fork is similar to a clone in that it copies an entire repository including its branches. However, a fork is exclusive to when a repository is being copied from one user's GitHub account to another and it maintains a link to its original source.
+
+//What is the benefit of having a copy of the last known state of the remote stored locally?
+By having a copy of the last known state of the remote stored locally, you're able to see what changes you've made since the last push. You could also use it to see what changes have been made to the remote since your last pull, which would help keep the remote and the local directory in sync (if desired).
